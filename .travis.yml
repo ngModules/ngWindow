@@ -8,3 +8,8 @@ install:
   - gem install compass
   - npm install grunt-cli
   - npm install bower
+  - npm install
+  - bower -f install
+
+script:
+  - grunt build
